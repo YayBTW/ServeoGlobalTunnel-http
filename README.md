@@ -18,7 +18,7 @@ Make sure that port 80 is open and not blocked by any firewall on your machine.
 
 Run the Python script with the following command:
 
-python servo_global_tunnel_http.py
+python serveo-http.py
 
 The script will establish a reverse SSH tunnel through Serveo and provide a globally accessible URL to your localhost.
 
@@ -48,7 +48,7 @@ Makinenizde 80. portun açık ve herhangi bir güvenlik duvarı tarafından enge
 
 Python betiğini şu komutla çalıştırın:
 
-python servo_global_tunnel_http.py
+python serveo-http.py
 
 Betik, Serveo aracılığıyla bir SSH tüneli kuracak ve localhost'unuza küresel bir erişim URL'si sağlayacaktır.
 
